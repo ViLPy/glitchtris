@@ -1,0 +1,6 @@
+{
+  "name": "glitchtris",
+  "devDependencies": {
+    "closure-compiler": "~0.2.7"
+  }
+}
