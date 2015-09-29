@@ -15,7 +15,7 @@ gulp.task('js', function () {
 gulp.task('optimize', ['js'], function () {
     return gulp.src('dist/js/*.js')
         .pipe(closureCompiler({
-            compilerPath: 'bower_components/closure-compiler/lib/vendor/compiler.jar',
+            compilerPath: 'node_modules/google-closure-compiler/compiler.jar',
             fileName: 'main.js',
             compilerFlags: {
                 compilation_level: 'ADVANCED_OPTIMIZATIONS',
